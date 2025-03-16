@@ -24,32 +24,21 @@ After running a query, you can create visualizations by:
 
 #### Total GB Offloaded
 - **Latest Value**: Counter visualization
-- **Trend Over Time**: Line chart with date on x-axis and total_data_gb on y-axis
 
 #### Total Users Served
 - **Latest Value**: Counter visualization
-- **Trend Over Time**: Line chart with date on x-axis and total_users on y-axis
 
 #### Total Unique Sessions
 - **Latest Value**: Counter visualization
-- **Trend Over Time**: Line chart with date on x-axis and total_sessions on y-axis
 
 #### Identity Providers Offloading
 - **Breakdown**: Bar chart with identity_provider on x-axis and users_count on y-axis
-- **Percentage Breakdown**: Pie chart with identity_provider as labels and percentage as values
 
 #### Active Locations in the Last 30 Days
 - **Latest Value**: Counter visualization
-- **Trend Over Time**: Line chart with date on x-axis and active_locations_count on y-axis
 
-#### Radius Serving
+#### Radios Serving
 - **Breakdown**: Bar chart with radius_server on x-axis and requests_count on y-axis
-- **Percentage Breakdown**: Pie chart with radius_server as labels and percentage as values
-
-#### Combined Visualizations
-- **Users, Sessions, and GB Offloaded**: Multi-line chart with date on x-axis and multiple metrics on y-axis
-- **Average Data Usage Per User**: Line chart with date on x-axis and avg_mb_per_user on y-axis
-- **Average Sessions Per User**: Line chart with date on x-axis and avg_sessions_per_user on y-axis
 
 ## Creating a Dashboard
 
