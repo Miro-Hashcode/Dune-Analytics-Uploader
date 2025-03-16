@@ -1,0 +1,92 @@
+name: WayFi Data Sync
+
+on:
+  # Run every 24 hours at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # Run on push to main branch
+  push:
+    branches: [ main ]
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Create data and logs directories
+        run: mkdir -p data logs
+      
+      - name: Run data sync process
+        run: node index.js --run-now --no-schedule
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+      
+      - name: Archive logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: logs/
+          retention-days: 7
+name: WayFi Data Sync
+
+on:
+  # Run every 24 hours at midnight UTC
+  schedule:
+    - cron: '0 0 * * *'
+  
+  # Run on push to main branch
+  push:
+    branches: [ main ]
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Create data and logs directories
+        run: mkdir -p data logs
+      
+      - name: Run data sync process
+        run: node index.js --run-now --no-schedule
+        env:
+          DUNE_API_KEY: ${{ secrets.DUNE_API_KEY }}
+      
+      - name: Archive logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: logs
+          path: logs/
+          retention-days: 7
