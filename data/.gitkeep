@@ -1,0 +1,2 @@
+# This file exists to ensure the directory is included in Git
+# The actual data files are excluded via .gitignore
