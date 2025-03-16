@@ -2,6 +2,10 @@
 
 This project automatically fetches WayFi data from Metabase JSON endpoints, converts it to CSV format, and uploads it to Dune Analytics via their CSV Upload API on a daily basis.
 
+[![Website](https://img.shields.io/badge/Website-WayFi%20Wireless-blue)](https://wayfiwireless.com)
+[![Twitter](https://img.shields.io/badge/Twitter-@wayfiwireless-1DA1F2?logo=twitter)](https://twitter.com/wayfiwireless)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-WayFi%20Wireless-0077B5?logo=linkedin)](https://www.linkedin.com/company/wayfi)
+
 ## Features
 
 - Fetches data from multiple Metabase JSON endpoints
