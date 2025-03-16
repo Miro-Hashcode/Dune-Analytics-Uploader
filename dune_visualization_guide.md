@@ -52,30 +52,6 @@ To create a comprehensive dashboard:
 6. Arrange the visualizations on the dashboard
 7. Click "Save" to save the dashboard
 
-## Recommended Dashboard Layout
-
-Here's a suggested layout for a comprehensive WayFi dashboard:
-
-### Top Row: Key Metrics (Counter Visualizations)
-- Total GB Offloaded
-- Total Users Served
-- Total Unique Sessions
-- Active Locations
-- Average MB Per User
-- Average Sessions Per User
-
-### Middle Row: Trend Analysis (Line Charts)
-- GB Offloaded Over Time
-- Users Served Over Time
-- Unique Sessions Over Time
-- Active Locations Over Time
-
-### Bottom Row: Breakdowns (Bar/Pie Charts)
-- Identity Providers Breakdown
-- Radius Servers Breakdown
-- Average Data Usage Per User Over Time
-- Average Sessions Per User Over Time
-
 ## Sharing Your Dashboard
 
 To share your dashboard with others:
